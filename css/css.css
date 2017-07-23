@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i,800,800i|Roboto+Slab:300,400,700|Roboto:300,400,500,700,900');
+
+body{
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 1.6em;
+	font-weight: 400;
+	position: relative;
+}
+
+/*header top*/
+
+
+header .top-header {
+	background-color: #282828;
+	color: #777;
+}
+
+header .top-header a {
+	text-decoration: none;
+	color: #777;
+}
+
+header .top-header .facebook {
+	display: inline-block;
+	margin-top: 15px;
+}
+header .top-header .navbar-default {
+	margin: 0;
+	border-radius: 0;
+	background-color: #282828;
+	border: none;
+}
+
+header .top-header .navbar-default .navbar-nav>li>a {
+	padding: 15px;
+}
+
+header .top-header .navbar-default .navbar-nav>li>a:hover, 
+header .top-header .navbar-default .navbar-nav>li>a:focus {
+	background: transparent;
+	color: #777;
+}
+/*header css*/
+
+
+/*header brand*/
+
+header .band-header {
+	padding: 20px 0;
+}
+header .band-header .navbar {
+	margin-bottom: 0;
+	background: white;
+}
+
+header .band-header .form-group {
+	margin-bottom: 0;
+	display: flex;
+}
+
+header .band-header .navbar-default {
+	border: none;
+}
+
+header .band-header .form-group .form-control {
+	
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 15px;
+	background-color: #ebebeb;
+}
+
+header .band-header .navbar .navbar-nav {
+	 margin: 7.5px 15px;
+}
+
+header .band-header .navbar .navbar-nav>li {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+
+header .band-header .navbar .navbar-nav>li .a01 {
+	margin-left: 10px;
+}
+
+header .band-header .navbar .navbar-nav>li .a01 span:last-child {
+	font-size: 1.1em;
+}
+
+header .band-header .navbar .navbar-nav>li .a01 span:first-child {
+	font-size: 0.9em;
+}
+
+/*header menu*/
+nav p#btn-menu {display: none;}
+nav {border-top: 1px dotted #d5d5d5;}
+nav ul {list-style: none; padding: 0; margin:0; position: relative;}
+ul.menu > li {float: left; border-right: 1px dotted #d5d5d5;}
+ul.menu > li:last-child {border: none;}
+ul.menu li a {text-decoration: none; color: black; display: block; padding: 8px 10px}
+nav ul ul {background-color: white;position: absolute; z-index: 1; width: 100%; left: 0; padding: 20px 40px; display: none;}
+nav ul li:hover ul{ display: block; }
+
+nav ul ul li {float:left; padding: 0 25px; border-right: 1px dotted #d5d5d5;}
+nav ul ul li:last-child{border:none;}
+nav ul ul li a {border-bottom: 1px dotted #d5d5d5; text-align: center;}
+nav ul ul li a:first-child{text-transform: uppercase; color: #ba1e71;; font-weight: bold; font-size: 0.9em;}
+nav ul:after {content: ""; clear:both; display: block;}
+
+.fixed {
+  position: fixed;
+  z-index: 9999;
+  background-color: #ba1e71;
+  top: 0;
+  width: 100%;
+  
+}
+.fixed ul li a{
+	color: white;
+}
+
+
+.carousel img{
+	width: 100%;
+}
+
+.page {
+	padding: 50px 0;	
+}
+
+.page span {
+	color: #c9c9c9;
+	font-size: 1.3em;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.page span, .page h2  {
+	display: block;
+	text-align: center;
+}
+
+.page h2 {
+	height: 50px;
+	margin-bottom: 30px;
+	position: relative;
+	font-weight: 400;
+}
+
+.page h3 {
+	font-weight: 400;
+}
+
+.page h2:after {
+	content: '';
+	background: url(../images/bg_header_wi.png) no-repeat;
+	height: 8px;
+	width: 158px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+	/*padding-bottom: 20px;*/
+	display: block;
+}
+
+/*the-manh*/
+.the-manh p {
+	text-align: center;
+}
+
+.the-manh p:first-child{
+	background-color: #ba1e71;
+	color: white;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.1em;
+	line-height: 190%; 
+	padding: 30px 70px;
+	border-radius: 5px;
+}
+
+.the-manh img {
+	width: 100%;
+}
+/*Nam khoa*/
+.nam-khoa {
+	background-color: #d9f0f8;
+}
+
+.nam-khoa .info {
+	text-align: center;
+}
+
+.nam-khoa .info h3 {
+	margin-top: 40px;
+}
+
+.nam-khoa .info p {
+	font-size: 0.935em;
+}
+
+.nam-khoa .info .text-center a {
+	text-decoration: none;
+	padding: 5px 15px;
+	background-color: #fe8f0a;
+	color: white;
+	border-radius: 4px;
+}
+
+.nam-khoa .photo {
+	position: relative;
+}
+
+.nam-khoa .photo:after {
+	content: '';
+	width: 50px;
+	height: 50px;
+	background: url(../images/pencil.png) no-repeat;
+	position: absolute;
+	bottom: -22px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.nam-khoa img {
+	width: 100%;
+}
+
+
+/*Phu Khoa*/
+.phu-khoa {
+
+}
+
+.phu-khoa img{
+	width: 100%;
+}
+
+.phu-khoa .news .label {
+	display: inline;
+	padding: 10px;
+	font-size: 0.8em;
+	font-style: normal;
+	background-color: #ba1e71;
+	color: white;
+	margin-right: 25px;
+}
+.phu-khoa .news h3 {
+	margin-top: 10px;
+}
+
+.phu-khoa .news p {
+	margin-top: 30px;
+	margin-bottom: 15px; 
+}
+
+.phu-khoa .news a {
+	text-decoration: none;
+	padding: 5px 15px;
+	background-color: #fe8f0a;
+	color: white;
+	border-radius: 4px;
+}
+
+.phu-khoa .article {
+	margin-top: 20px;
+}
+
+.phu-khoa .article a{
+	color: #c45089;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+/*doctor*/
+
+.doctor {
+	background-color: #f2f2f2;
+}
+
+.doctor .info {
+	text-align: justify;
+	background-color: #ba1e71;
+	color: white;
+	line-height: 2;
+	padding: 30px;
+	font-style: italic;
+	border-radius: 10px;
+	position: relative;
+}
+
+.doctor .info:before {
+	content: '';
+	background: url(../images/bg_before.png) no-repeat;
+	width: 15px;
+	height: 10px;
+	position: absolute;
+	top: 40px;
+    left: 15px;
+}
+
+.doctor .info:after {
+	content: '';
+	background: url(../images/bg_after.png) no-repeat;
+	width: 15px;
+	height: 10px;
+	position: absolute;
+	bottom: 40px;
+    right: 15px;
+}
+
+.doctor .avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	
+}
+.doctor .avatar p {
+	margin-left: 30px;
+}
+
+/*bxh*/
+.bxh {
+	background-color: #ffeacb;
+}
+.bxh img {
+	width: 100%;
+}
+
+.bxh .info {
+	margin-top: 20px;
+}
+
+.bxh .info a {
+	text-decoration: none;
+	color: #857d7b;
+}
+
+.bxh .info span:first-child {
+	display: inline;
+	color: #ba1e71;
+	font-style: normal;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+/*chủ quan*/
+
+.chu-quan .title {
+	background-color: #ba1e71;
+	padding: 40px 0;
+	position: relative;
+	min-height: 150px;
+}
+
+.chu-quan .first:after {
+	content: '';
+	width: 120px;
+	height: 120px;
+	background: url(../images/phu-khoa.png);
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+
+.chu-quan .second:after {
+	content: '';
+	width: 120px;
+	height: 120px;
+	background: url(../images/nam-khoa.png);
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.chu-quan .third:after {
+	content: '';
+	width: 120px;
+	height: 120px;
+	background: url(../images/bxh.png);
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.chu-quan .title p {
+	text-align: center;
+	color: white;
+	font-size: 1.6em;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.chu-quan .navbar-nav {
+	border: 1px solid #eaeaea;
+}
+
+.chu-quan .navbar-nav>li {
+	text-align: center;
+	padding: 40px 5px;
+}
+
+.chu-quan .navbar-nav>li:first-child {
+	min-height: 180px;
+	display: flex;
+	align-items: center;
+}
+
+.chu-quan .navbar-nav>li:last-child {
+	width: 100%;
+}
+
+.chu-quan .navbar-nav>li:last-child a {
+	padding: 5px 20px;
+	background: orange;
+	color: white;
+	font-size: 1em;
+	display: inline;
+	border-radius: 5px;
+}
+
+.chu-quan .navbar-nav>li:nth-child(even) {
+	background-color: #eaeaea;
+}
+
+/*form*/
+.form {
+	background-color: #d3ecf4;
+}
+.form input{
+	font-size: 1.2em;
+	padding: 25px 10px;
+}
+
+.form-control {
+	border:none;
+	border-radius: 0;
+}
+
+.form .has-feedback .form-control-feedback {
+	line-height: 50px;
+}
+
+.form textarea {
+	height: 115px;
+}
+.form .order {
+	margin-top: 30px;
+}
+.form .order a {
+	background: #fe8f0a;
+	text-decoration: none;
+	padding: 20px;
+	color: white;
+}
+
+
+/*css cho phan trang category*/
+.wrap-page {padding: 30px 0;}
+.wrap-page ul.breadcrumb {background: none; padding: 8px 0; margin-bottom: 20px;} 
+.wrap-page ul.breadcrumb li a {text-decoration: none; color: #777;}
+.wrap-page .wrap-content .content {/*border: 1px solid #cccccc;*/}
+.wrap-page .wrap-content .content .item {border: 1px solid #cccccc; margin-bottom: 30px; text-align: center;}
+.wrap-page .wrap-content .content .item img {min-height: 200px;}
+.wrap-page .wrap-content .content .item a { text-decoration: none; display: block;}
+.wrap-page .wrap-content .content .item a.title {color: #ba1e71; font-weight: bold; margin: 10px 0; font-size: 1.2em;}
+.wrap-page .wrap-content .content .item a.chi-tiet {padding: 5px 5px; background: orange; color: white;} 
+
+.wrap-page .side-bar .menu {margin-bottom: 20px;}
+.wrap-page .side-bar .menu p{margin: 0; background: #ba1e71; color: white; text-align: center; font-size: 1.2em; padding: 10px 0;}
+.wrap-page .side-bar .menu ul {padding: 0; margin: 0; list-style: none;}
+.wrap-page .side-bar .menu ul li {position: relative;}
+.wrap-page .side-bar .menu ul li a{text-decoration: none; display: block; padding: 8px 10px; border-bottom: 1px dotted; color:black;}
+.wrap-page .side-bar .menu ul ul {display: none;}
+/*.wrap-page .side-bar .menu ul li.tap > ul{display: block;}*/
+.wrap-page .side-bar .menu ul ul li a {margin-left: 30px;}
+.wrap-page .side-bar .menu ul ul ul li a {margin-left: 60px;}
+.wrap-page .side-bar .you-know > p {margin: 0; background: #ba1e71; color: white; text-align: center; font-size: 1.2em; padding: 10px 0;}
+.wrap-page .side-bar .you-know img{width: 64px; height: 64px;}
+.wrap-page .side-bar .you-know .media-body a {text-decoration: none; color: black;}
+.wrap-page .side-bar .menu ul li.arrow-left:before {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-left: 4px solid #000;
+	border-bottom: 4px solid transparent;
+	top: 14px;
+}
+
+.wrap-page .side-bar .menu ul li.arrow-bottom:before {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	border-top: 4px solid #000;
+	top: 17px;
+}
+
+.wrap-page .side-bar .media {margin:0; border-bottom: 1px dotted; padding: 10px 0;}
+
+/*noi dung bai viet*/
+.wrap-page .wrap-contentbv .content {border: 1px dotted}
+.wrap-page .wrap-contentbv .content-bv {padding: 30px;}
+.wrap-page .wrap-contentbv .content-bv h1 {font-size: 1.3em; font-weight: bold; margin: 10px 0; color: #ba1e71;}
+.wrap-page .wrap-contentbv .content-bv h2 {font-size: 1.2em; font-weight: bold; margin: 10px 0; color: #ba1e71;}
+.wrap-page .wrap-contentbv .content-bv h3 {font-size: 1.2em; font-weight: bold; margin: 10px 0; color: #ba1e71;}
+.wrap-page .wrap-contentbv .content .bv-lienquan
+/*.wrap-page .wrap-contentbv .content .bv-lienquan img {width: 94px; height: 60px}*/
+.wrap-contentbv .content .bv-lienquan p {margin: 0; font-size: .8em;}
+.wrap-contentbv .content .bv-lienquan .media {margin-bottom: 30px; padding: 0px 30px;}
+.wrap-contentbv .content .bv-lienquan .media img {width: 94px; height: 70px}
+.wrap-contentbv .content .bv-lienquan .media .media-body p:first-child {font-size: 0.9em; font-weight: bold; margin:0;}
+.wrap-contentbv .content .bv-lienquan .media .media-body p:last-child {font-size: 0.9em}
+.foot-adress {padding: 30px;}
+
+.foot-time {
+	background-color: #ba1e71;
+}
+.foot-time .dienthoai {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foot-time .dienthoai img {
+	margin-right: 10px;
+}
+
+.foot-time .dienthoai p {
+	margin: 0;
+	color: white;
+}
+
+.footer-black {
+	background-color: #282828;
+}
+
+.footer-black p{
+	color: #868686;
+}
+
+
+@media only screen and (min-width: 1200px) {
+	.clearfix {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.nam-khoa .info h3 {
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+	.the-manh img{
+		width: 50%;
+		display: block;
+    	margin: 0 auto;
+	}
+	.nam-khoa img {
+		width: 80%;
+		display: block;
+    	margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	nav.mega-menu {border: none;}
+	ul.menu ul{position: static; padding: 10px 10px;}
+	nav ul li:hover ul{ display: none; }
+	ul.menu > li {float: none; border: none}
+	nav ul ul li {float: none; border: none;}
+	nav ul ul li a{border: none; text-align: left; border-bottom: 1px dotted #d5d5d5; width: auto;}
+	nav p#btn-menu {display: block; background-color: lightblue; padding: 10px; cursor:pointer; font-weight: 700;}
+	ul.menu {display: none;}
+	ul.expand{ display: block;}
+}
+
+@media only screen and (max-width: 450px) {
+	.facebook{font-size: 0.8em;}
+}
